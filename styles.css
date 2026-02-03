@@ -35,3 +35,24 @@ button {
 .hidden {
   display: none;
 }
+#prediction {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.choice {
+  flex: 1;
+  padding: 10px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.choice.selected {
+  background: #ff4500;
+  color: white;
+  border-color: #ff4500;
+}
+
