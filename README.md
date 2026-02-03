@@ -1,5 +1,11 @@
 # Micro-Karma: Daily Reddit Snapshot
 
+<p align="center">
+  <img src="assets/thumbnail.png" width="32%" />
+  <img src="assets/images.png" width="32%" />
+  <img src="assets/Screenshot 2026-02-03 144531.png" width="32%" />
+</p>
+
 Micro-Karma is a lightweight daily social game that turns subreddit activity into a conversation starter.
 
 Each day, players generate a “snapshot of the day” for a subreddit and discuss **why the community behaved that way**.  
@@ -71,7 +77,8 @@ Planned future improvements:
 
 ## 📸 Screenshots / Demo
 
-Screenshots and a short demo video can be added here.
+The images above show the current prototype UI and daily snapshot experience.  
+A short demo video is also available via the Devpost submission.
 
 ---
 
