@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Micro-Karma</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>📊 Micro-Karma</h1>
+    <p class="subtitle">
+      A daily social game that turns subreddit activity into a conversation starter.
+    </p>
+
+    <div class="card">
+      <label>Enter a subreddit name</label>
+      <input id="subreddit" placeholder="e.g. AskReddit" />
+      <button id="generateBtn">Generate Snapshot</button>
+      <p id="loading" class="hidden">⏳ Generating snapshot…</p>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>🗓️ Snapshot of the Day</h2>
+      <ul id="posts"></ul>
+      <p id="narrator"></p>
+      <p class="comment-prompt">
+        💬 Why do you think this subreddit behaved like this today?
+      </p>
+    </div>
+
+    <p class="subtitle">
+      ⚠️ Prototype demo. Live Reddit data and Devvit integration planned.
+    </p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
